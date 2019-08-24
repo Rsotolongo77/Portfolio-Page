@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>Contact Page</title>
+</head>
+
+<body>
+
+
+
+    <!--navbar added with custom font-->
+    <nav class="navbar text-info bg-dark">
+        <h2>Contact Page</h2>
+    </nav>
+
+
+
+    <div class="container">
+
+
+        <!--Section: Contact v.2-->
+        <section class="mb-4 text-white">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+            <!--Section description-->
+            <br>
+            <hr class="my-3">
+            <br>
+
+            <div class="row">
+
+
+                <!--Grid column-->
+                
+                    <div class="col-2"></div>
+                    <div class="col-10">
+                        <div class="col-md-9 mb-md-0 mb-5">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="name" name="name" class="form-control">
+                                            <label for="name" class="">Your name</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="email" name="email" class="form-control">
+                                            <label for="email" class="">Your email</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                            <label for="subject" class="">Subject</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-12">
+
+                                        <div class="md-form">
+                                            <textarea type="text" id="message" name="message" rows="12"
+                                                class="form-control md-textarea"></textarea>
+                                            <label for="message">Your message</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                            </form>
+
+                            <div class="text-center text-md-left">
+                                <a class="btn btn-primary"
+                                    onclick="document.getElementById('contact-form').submit();">Send</a>
+                            </div>
+                            <div class="status"></div>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+    </div>
+    <!--Section: Contact v.2-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="page-footer font-small blue pt-4 text-white">
+
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+
+        </div>
+
+
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

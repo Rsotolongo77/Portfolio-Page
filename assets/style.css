@@ -22,3 +22,20 @@ body {
     font-size: larger;
 }
 
+@media (max-width: 1025px) {
+
+
+    .cardsHome {
+
+        align-items: center;
+    }
+
+    
+
+}
+
+
+
+  
+
+

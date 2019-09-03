@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0134)file:///Users/ricardosotolongo/Documents/UCF/ClassRepo_Local/Week02/Day%204/04-jQueryDrinkList/Unsolved/jquery-drinklist-unsolved.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>JavaScript Content!</title>
+  <script src="./JavaScript Content!_files/jquery.min.js"></script>
+</head>
+<body>
+
+  <h1>Drink Selection!</h1>
+  <hr>
+
+  <div id="drink-options"></div>
+
+  <script type="text/javascript">
+
+    var drinkList = [
+      "Coffee: $5",
+      "Espresso: $7",
+      "Cappuccino: $6",
+      "Latte: $4",
+      "Tea: $3",
+      "Ice Coffee: $6",
+      "Ice Espresso: $8",
+      "Ice Latte: $6",
+      "Ice Tea: $4"
+    ];
+
+    // Using JavaScript programmatically append each drinkList item to the "drink-options" div
+    // HINT: you will need a for loop to go over each element in the list
+
+    var drinkDiv = $("drink-options");
+
+
+    for ( var i=0; i < drinkList.length; i++) {
+
+      var newDrink = $("<p>" + drinkList [i] + "</p>");
+      
+        drinkDiv.append(newDrink);
+    }
+
+  </script>
+
+
+
+</body></html>

@@ -1,6 +1,7 @@
 body {
 
-    background-color: cadetblue
+    background-color: cadetblue;
+    
 
 }
 
@@ -29,8 +30,12 @@ body {
 .carousel-caption h1 {
 
     
-    color: white;
-
+    color:white;
+    background:linear-gradient( rgb(120, 173, 189), rgb(81, 81, 199));
+    border-radius: 90px;
+    width: 50%;
+    margin: auto;
+    opacity: .9;
 
 
 }
@@ -38,6 +43,9 @@ body {
 #aboutMeImage {
 
     padding-left: 20px;
+
+
+
 }
 
 

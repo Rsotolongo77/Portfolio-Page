@@ -8,11 +8,14 @@ body {
 
     margin-bottom: 40px;
     
+    
+    
 }
 
 .carousel-indicators li {
 
     margin-bottom: 40px;
+    
     
 }
 
@@ -23,7 +26,19 @@ body {
 }
 
 
+.carousel-caption h1 {
 
+    
+    color: white;
+
+
+
+}
+
+#aboutMeImage {
+
+    padding-left: 20px;
+}
 
 
       

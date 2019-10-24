@@ -22,19 +22,15 @@ body {
 }
 
 #cards {
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.486);
+    box-shadow: 5px 5px 20px rgba(228, 196, 91, 0.822);
+    background: rgba(212, 211, 211, 0.616);
 
 }
 
 #contactShade {
-    box-shadow: -5px -5px 20px 5px grey, 5px 5px 20px 5px rgba(246, 250, 3, 0.562);
+    box-shadow: -5px -5px 20px 5px grey, 5px 5px 20px 5px rgba(231, 228, 228, 0.712);
     background: rgba(2, 2, 2, 0.219);
     border-radius: 10px;
-
-}
-
-#cards {
-    background: rgba(2, 2, 2, 0.219);
 
 }
 
